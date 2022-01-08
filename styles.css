@@ -1,0 +1,200 @@
+/* Colors, general, non-text */
+
+body {
+  background-color: #000000;
+}
+
+header div {
+  background-color: rgb(0, 0, 0);
+}
+
+/* Typography: colors */
+
+h1,
+p,
+ul,
+li,
+footer {
+  font-family: Tahoma, sans-serif;
+  color: rgb(77, 77, 77);
+  font-size: 20px;
+}
+
+.bands {
+  color: rgb(77, 77, 77);
+}
+
+.contact {
+  color: rgb(77, 77, 77);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Element styling: non-layout */
+
+header div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+img {
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  box-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+header li {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+footer {
+  border-top: 1px solid rgb(0, 0, 0);
+  padding-top: 1rem;
+}
+
+footer div {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+footer li {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+/* Layout */
+
+/* Less margin and padding on narrow screen */
+
+* {
+  margin: center;
+  padding: center;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+header ul {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: fit-content;
+}
+
+header nav li {
+  margin-bottom: 0.2rem;
+  list-style: none;
+}
+
+header ul a {
+  text-decoration: none;
+}
+
+img {
+  margin: 0 auto;
+  width: 60%;
+  display: block;
+  /* Margin auto works on block-level elements only */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+main {
+  margin: auto;
+}
+
+main h2 {
+  margin: auto;
+}
+
+main p {
+  margin: auto;
+}
+
+footer {
+  margin: auto;
+}
+
+.bands {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  clear: both;
+  display: inline-block;
+  align-content: center;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 35px;
+  margin-top: 0x;
+  margin-bottom: 0px;
+}
+
+.thumbnail {
+  width: 48%;
+  text-align: center;
+  float: left;
+  display: inline-block;
+  margin-top: 35px;
+  background-color: #000000;
+  padding-bottom: 20px;
+  margin-left: 1%;
+  margin-right: 1%;
+  border-radius: 3px;
+  padding-top: 20px;
+  border-bottom: 4px solid #000000;
+}
+
+.contact {
+  padding: 50px;
+  align-content: center;
+}
+
+/* Only one breakpoint, on production website you'll want more than one. */
+
+@media (min-width: 1024px) {
+  /* Changes for exercise */
+  body {
+    background-color: #000000;
+    color: #000000;
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+  main {
+    margin: 0 20%;
+  }
+  /* Extra changes */
+  header h1 {
+    font-size: 5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  header nav li {
+    font-size: 3.5rem;
+    display: inline;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom-width: 0;
+    margin-right: 2rem;
+    border: 0px solid black;
+    border-radius: 0rem;
+    padding: 0.5rem 3rem;
+  }
+  header nav li.last {
+    border-bottom-width: 3px;
+  }
+  img {
+    width: 40%;
+    float: right;
+    margin-left: 3rem;
+  }
+  footer nav li {
+    display: inline;
+  }
+  footer nav {
+    margin: 0 auto;
+    width: fit-content;
+  }
+}

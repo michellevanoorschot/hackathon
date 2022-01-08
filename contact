@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.6435-9/81717478_10219944592741586_4974652227143598080_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=e3f864&_nc_ohc=cYIfM0Gd2msAX-ZLL7g&_nc_ht=scontent-amt2-1.xx&oh=00_AT_XrTNxaoqjBq5Gs19XLMz4nEK2y9q9T8FHPAdc50h7fg&oe=61FB6A44" />
+        </div>
+        
+    </header>
+    
+    <main>
+        <h1>
+            Contact us
+        </h1>
+    
+        <section>
+            <div class="contact">
+            </div>
+           
+            <div>
+                <form name="contact" method="POST" data-netlify="true">
+                    <p>
+                      <label>Your Name: <input type="text" name="name" /></label>   
+                    </p>
+                    <p>
+                      <label>Your Email: <input type="email" name="email" /></label>
+                    </p>
+                    <p>
+                      <label>Message: <textarea name="message" rows="10" cols="30"></textarea></label>
+                    </p>
+                    
+                    <p>
+    
+                      <button type="submit">Send</button>
+                    </p>
+                  </form>
+            </div>
+        </section>    
+        
+    </main>
+   
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="artists.html">Artists</a></li>
+                <li><a href="news.html">News</a></li>
+                <li class="last"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+
+        <br>
+        <hr>
+        <br>
+        <div>Copyright Michelle ©️ 2022</div>
+        <br>
+        <br>
+
+        <nav>
+        </nav>
+    </footer>
+    
+</body>
+
+</html>

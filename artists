@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>Artists</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.6435-9/81717478_10219944592741586_4974652227143598080_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=e3f864&_nc_ohc=cYIfM0Gd2msAX-ZLL7g&_nc_ht=scontent-amt2-1.xx&oh=00_AT_XrTNxaoqjBq5Gs19XLMz4nEK2y9q9T8FHPAdc50h7fg&oe=61FB6A44" />
+        </div>
+        
+    </header>
+    
+<main>
+    
+        <h1>
+            Artists
+        </h1>
+        <br>
+        <br>
+    <div class="bands">
+        
+            <article class="thumbnail"> <a href="#"><img src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.6435-9/152279683_270242127792700_7861391855234571746_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=FekBZ93JtDQAX_lbUbZ&_nc_ht=scontent-amt2-1.xx&oh=00_AT99gLg4wqoBW9qRMcna303JGf-ZrBGlpg4pzieEh9WBuw&oe=61FD7DF1" alt="" class="cards"/></a>
+                <h3>Perturbator</h3>
+            </article>
+            
+            <article class="thumbnail"> <a href="#"><img src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.6435-9/131114941_246212486870985_2065261770009132049_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=gMbv2wp0-fcAX-8EUcQ&_nc_ht=scontent-amt2-1.xx&oh=00_AT-NI0OzyrWvDr0cBruTQApGpkUoKJFdAhNI4hIx0pnfTw&oe=61FF2666" alt="" class="cards"/></a>
+                <h3>Igorrr</h3>
+            </article>
+            
+            <article class="thumbnail"> <a href="#"><img src="https://scontent-ams4-1.xx.fbcdn.net/v/t1.6435-9/130283925_223142472511879_6057686050984565455_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=lXKkZwaJtk0AX_PDNKD&_nc_ht=scontent-ams4-1.xx&oh=00_AT8RAUV7S_VgctfPVADcGyzVvWFdBcEH3DonIaY6VWHoAg&oe=61FF61BE" alt="" class="cards"/></a>
+                <h3>Alcest</h3>
+            </article>
+
+            <article class="thumbnail"> <a href="#"><img src="https://scontent-ams4-1.xx.fbcdn.net/v/t1.6435-9/188384317_6239109789462959_8963426469826047420_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Uodug42ks9AAX8WjGGh&_nc_ht=scontent-ams4-1.xx&oh=00_AT8gsmRfz1TxP3uYGW1mUQJFcmBH4LX3_ZdTXOANReoXGg&oe=61FE67F7" alt="" class="cards"/></a>
+                <h3>Hangman's Chair</h3>
+            </article>
+        
+            <article class="thumbnail"> <a href="#"><img src="https://scontent-amt2-1.xx.fbcdn.net/v/t31.18172-8/10644767_870726642952079_5068749521784271514_o.jpg?_nc_cat=105&ccb=1-5&_nc_sid=174925&_nc_ohc=tby6uPL6-HkAX8lweDO&_nc_ht=scontent-amt2-1.xx&oh=00_AT-_hqbqLDY6S5MhjFknIGRSOBA2-qpZm5VGV_kogJ6r8w&oe=62004E39" alt="" class="cards"/></a>
+                <h3>Dan Terminus</h3>
+            </article>
+
+            <article class="thumbnail"> <a href="#"><img src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.18169-9/20264674_1444890398921348_9018634724238135291_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=YRin9cBUsRkAX8gmp_N&_nc_ht=scontent-amt2-1.xx&oh=00_AT8ItfwnaxmJ4uNIk_eCCM0Ibp98V92mEz-CpdV43cNeeA&oe=61FFE2E8" alt="" class="cards"/></a>
+                <h3>Orgone Studios</h3>
+            </article>
+
+            <article class="thumbnail"> <a href="#"><img src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.6435-9/139069085_119968303307134_8711304416638493083_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QA63GjRQ7aIAX8qEIBz&_nc_ht=scontent-amt2-1.xx&oh=00_AT-6mYUL2hmREgi0vUFz-DmxZ9ScH-33AAgOy-f1qNDOZA&oe=6200CB75" alt="" class="cards"/></a>
+                <h3>Kabbel</h3>
+            </article>
+        
+            <article class="thumbnail"> <a href="#"><img src="https://scontent-ams4-1.xx.fbcdn.net/v/t1.6435-9/143552106_219484939789469_6416093492434391806_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=WxhtuNTbl_gAX-FFiAZ&_nc_ht=scontent-ams4-1.xx&oh=00_AT8gZyFfNnFEvqjWe_nYvWPqi0UX4TeN11-clKpk-C8J6Q&oe=61FE7E21" alt="" class="cards"/></a>
+                <h3>Ruin of Romantics</h3>
+            </article>
+       
+            <article class="thumbnail"> <a href="#"><img src="https://scontent-ams4-1.xx.fbcdn.net/v/t1.6435-9/151259186_262406441920815_3221910077307977895_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=174925&_nc_ohc=c43KBdK4X1gAX9bjlmo&_nc_ht=scontent-ams4-1.xx&oh=00_AT8HByFkroWjP_EzpTlzDyAU-lDIrkl1ZtZkMY4jWO77KA&oe=61FDA9CA" alt="" class="cards"/></a>
+                <h3>Gost</h3>
+            </article>
+
+        
+       
+
+    </div>
+        
+    </main>
+   
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="artists.html">Artists</a></li>
+                <li><a href="news.html">News</a></li>
+                <li class="last"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <br>
+        <hr>
+        <br>
+        <div>Copyright Michelle ©️ 2022</div>
+        <br>
+        <br>
+
+        <nav>
+        </nav>
+    </footer>
+    
+</body>
+
+</html>
